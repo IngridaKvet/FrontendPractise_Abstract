@@ -51,10 +51,11 @@ h1,h2{
   font-weight: bold;
 }
 
-h2{
-  padding-left: 14px;
+h2,h1{
+  padding-left: 7px;
   width: max-content;
 }
+
 
 img[src="img/crab.png"] {
   margin-left: 43px;
@@ -143,6 +144,7 @@ p {
   display: flex;
   align-items: center;
   column-gap: 15px;
+  max-width: fit-content;
 }
 
 .text{
@@ -187,3 +189,42 @@ h4{
   margin: 0px;
   margin-bottom: 29px;
 }
+
+.blueButton:hover{
+  background-color: #fff;
+  color:#000
+}
+header>div>h2:hover{
+  text-decoration: underline;
+}
+
+header>div:first-child:hover{
+  opacity: 50%;
+}
+
+div.searchBar:hover{
+  border-color: #41A6FD;
+ 
+
+}
+
+.blueText:hover{
+  border-bottom: #41A6FD solid 2px;
+}
+
+footer>div>div:hover{
+  text-decoration: underline;
+}
+
+.lastDiv>p{
+  font-size: 17px;
+}
+
+img[src="img/right-arrow-blue.png"] {
+  margin-right: -30px;
+} 
+
+div.searchBar:hover>img[src="img/arrow.png"]{
+  opacity: 0%;
+}
+
