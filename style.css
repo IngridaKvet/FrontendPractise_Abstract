@@ -26,6 +26,7 @@ button{
   font-size: 25px;
   background-color: #4b61d5;
   min-width: 170px;
+ 
 }
 
 button.darkButton{
@@ -35,13 +36,13 @@ button.darkButton{
   width: 252px;
   margin-left: 100px;
   min-width: 300px;
-  margin-right: 18px;
+  margin-right: 18px; 
+  margin-left: auto;
 }
 
 header>div{
   display: flex;
   flex-direction: row;
-  margin-right: auto;
   align-items: center;
 }
 
@@ -63,6 +64,8 @@ img[src="img/crab.png"] {
 }
 
 section.blueSection{
+  
+
   background-color: #BDe0FE;
   height: 433px;
   display: flex;
