@@ -144,7 +144,7 @@ p {
   display: flex;
   align-items: center;
   column-gap: 15px;
-  max-width: fit-content;
+  max-width: 140px;
 }
 
 .text{
@@ -204,8 +204,6 @@ header>div:first-child:hover{
 
 div.searchBar:hover{
   border-color: #41A6FD;
- 
-
 }
 
 .blueText:hover{
